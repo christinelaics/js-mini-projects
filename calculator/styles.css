@@ -1,0 +1,57 @@
+.calculator {
+    width: 430px;
+    background-color: black;
+    padding: 25px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+/* .buttons {
+    margin-top: 10px;
+} */
+
+input:not(.text) {
+    /* border-radius: 30%; */
+    width: 70px;
+    height: 70px;
+    /* margin: 10px; */
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+
+input:hover:not(.text, .operation) {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* .operation {
+} */
+
+.operation:hover {
+    background-color: gray;
+    color: orange;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.output .text {
+    width: 62.3%;
+    height: 70px;
+    padding: 0 20px 0 0;
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 30px;
+}
+
+.calculator .zero {
+    width: 144px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
